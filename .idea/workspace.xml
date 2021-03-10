@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f50e18f0-6347-4179-8f9c-7fd8e2c00c80" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1pMhyk7tgeTU6AGlroamA3vZVa8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f50e18f0-6347-4179-8f9c-7fd8e2c00c80" name="Default Changelist" comment="" />
+      <created>1614999122792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614999122792</updated>
+      <workItem from="1614999123841" duration="4055000" />
+      <workItem from="1615301272201" duration="7802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="187" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615304718184">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="555" y="187" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.997@0.27.1920.997" timestamp="1615304718184" />
+    <state x="734" y="235" width="441" height="588" key="#com.intellij.ide.util.MemberChooser" timestamp="1615301933098">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="734" y="235" width="441" height="588" key="#com.intellij.ide.util.MemberChooser/0.27.1920.997@0.27.1920.997" timestamp="1615301933098" />
+    <state x="738" y="257" width="424" height="550" key="FileChooserDialogImpl" timestamp="1615326470213">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="738" y="257" width="424" height="550" key="FileChooserDialogImpl/0.27.1920.997@0.27.1920.997" timestamp="1615326470213" />
+    <state width="1291" height="257" key="GridCell.Tab.0.bottom" timestamp="1615317956143">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.bottom/0.27.1920.997@0.27.1920.997" timestamp="1615317956143" />
+    <state width="1291" height="257" key="GridCell.Tab.0.center" timestamp="1615317956142">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.center/0.27.1920.997@0.27.1920.997" timestamp="1615317956142" />
+    <state width="1291" height="257" key="GridCell.Tab.0.left" timestamp="1615317956141">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.left/0.27.1920.997@0.27.1920.997" timestamp="1615317956141" />
+    <state width="1291" height="257" key="GridCell.Tab.0.right" timestamp="1615317956143">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state width="1291" height="257" key="GridCell.Tab.0.right/0.27.1920.997@0.27.1920.997" timestamp="1615317956143" />
+    <state x="638" y="245" width="689" height="568" key="NewPhpClassDialog" timestamp="1615301789413">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="638" y="245" width="689" height="568" key="NewPhpClassDialog/0.27.1920.997@0.27.1920.997" timestamp="1615301789413" />
+    <state x="755" y="451" width="399" height="156" key="NewPhpFileDialog" timestamp="1615317399156">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="755" y="451" width="399" height="156" key="NewPhpFileDialog/0.27.1920.997@0.27.1920.997" timestamp="1615317399156" />
+    <state x="624" y="238" key="run.anything.popup" timestamp="1615301878183">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="624" y="238" key="run.anything.popup/0.27.1920.997@0.27.1920.997" timestamp="1615301878183" />
+  </component>
+</project>
