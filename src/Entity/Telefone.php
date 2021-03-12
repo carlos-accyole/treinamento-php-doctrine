@@ -24,7 +24,7 @@ class Telefone
     /**
      * @Column(type="string")
      */
-    private string $telefone;
+    private string $numero;
 
     /**
      * @ManyToOne(targetEntity="Aluno")
@@ -36,14 +36,14 @@ class Telefone
         return $this->id;
     }
 
-    public function getTelefone(): string
+    public function getNumero(): string
     {
-        return $this->telefone;
+        return $this->numero;
     }
 
-    public function setTelefone(string $telefone): Telefone
+    public function setNumero(string $numero)
     {
-        $this->telefone = $telefone;
+        $this->numero = $numero;
         return $this;
     }
 

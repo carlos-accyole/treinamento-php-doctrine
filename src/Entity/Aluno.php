@@ -8,10 +8,11 @@ use Doctrine\ORM\Mapping\Column;
 use Doctrine\ORM\Mapping\Entity;
 use Doctrine\ORM\Mapping\GeneratedValue;
 use Doctrine\ORM\Mapping\Id;
+use Doctrine\ORM\Mapping\ManyToMany;
 use Doctrine\ORM\Mapping\OneToMany;
 
 /**
- * @Entity
+ * @Entity(repositoryClass="Alura\Doctrine\Repository\AlunoRepository")
  */
 class Aluno
 {
@@ -29,13 +30,19 @@ class Aluno
     private string $nome;
 
     /**
-     * @OneToMany(targetEntity="Telefone", mappedBy="Aluno")
+     * @OneToMany(targetEntity="Telefone", mappedBy="aluno", cascade={"remove", "persist"}, fetch="EAGER")
      */
-    private ArrayCollection $telefones;
+    private $telefones;
+
+    /**
+     * @ManyToMany(targetEntity="Curso", mappedBy="alunos")
+     */
+    private $cursos;
 
     public function __construct()
     {
         $this->telefones = new ArrayCollection();
+        $this->cursos = new ArrayCollection();
     }
 
     public function getId(): int
@@ -63,5 +70,24 @@ class Aluno
     public function getTelefones(): Collection
     {
         return $this->telefones;
+    }
+
+    public function addCurso(Curso $curso): self
+    {
+        if ($this->cursos->contains($curso)) {
+            return $this;
+        }
+        $this->cursos->add($curso);
+        $curso->addAluno($this);
+
+        return $this;
+    }
+
+    /**
+     * @return Curso[]
+     */
+    public function getCursos(): Collection
+    {
+        return $this->cursos;
     }
 }

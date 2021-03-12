@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/var/data/banco.sqlite</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Conexão-Mysql" uuid="2c7e74c7-9cd7-467d-9a9e-e21b14278757">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://172.17.0.2:3306/curso_doctrine</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
+class ComposerStaticInit3c42188e44fb0bf5ca2076bbf4eb05a7
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -14,6 +14,7 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -27,17 +28,27 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Component\\String\\' => 25,
+            'Symfony\\Component\\Stopwatch\\' => 28,
+            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\Console\\' => 26,
         ),
         'P' => 
         array (
             'Psr\\Container\\' => 14,
+            'ProxyManager\\' => 13,
             'PackageVersions\\' => 16,
+        ),
+        'L' => 
+        array (
+            'Laminas\\ZendFrameworkBridge\\' => 28,
+            'Laminas\\EventManager\\' => 21,
+            'Laminas\\Code\\' => 13,
         ),
         'D' => 
         array (
             'Doctrine\\Persistence\\' => 21,
             'Doctrine\\ORM\\' => 13,
+            'Doctrine\\Migrations\\' => 20,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Inflector\\' => 19,
             'Doctrine\\DBAL\\' => 14,
@@ -86,6 +97,14 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
         array (
             0 => __DIR__ . '/..' . '/symfony/string',
         ),
+        'Symfony\\Component\\Stopwatch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stopwatch',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
@@ -94,9 +113,25 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'ProxyManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofphp/proxy-manager-lts/src/ProxyManager',
+        ),
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/package-versions-deprecated/src/PackageVersions',
+        ),
+        'Laminas\\ZendFrameworkBridge\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src',
+        ),
+        'Laminas\\EventManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-eventmanager/src',
+        ),
+        'Laminas\\Code\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laminas/laminas-code/src',
         ),
         'Doctrine\\Persistence\\' => 
         array (
@@ -105,6 +140,10 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
         'Doctrine\\ORM\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/orm/lib/Doctrine/ORM',
+        ),
+        'Doctrine\\Migrations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/migrations/lib/Doctrine/Migrations',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -158,9 +197,9 @@ class ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit0cd7e4c85dbd49210966d6e6a1ea6a08::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3c42188e44fb0bf5ca2076bbf4eb05a7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3c42188e44fb0bf5ca2076bbf4eb05a7::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3c42188e44fb0bf5ca2076bbf4eb05a7::$classMap;
 
         }, null, ClassLoader::class);
     }
